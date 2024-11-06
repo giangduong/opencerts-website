@@ -59,16 +59,27 @@ export const certificateSlice = createSlice({
       verificationPending: true,
       verificationStatus: null,
     }),
-    verifyingCertificateCompleted: (state, { payload }: PayloadAction<VerificationFragment[]>) => ({
-      ...state,
-      verificationPending: false,
-      verificationStatus: payload,
-    }),
-    verifyingCertificateErrored: (state, { payload }: PayloadAction<string>) => ({
-      ...state,
-      verificationPending: false,
-      verificationError: payload,
-    }),
+    verifyingCertificateCompleted: (state, { payload }: PayloadAction<VerificationFragment[]>) => {
+      
+      var sarr: VerificationFragment[] = payload;
+      sarr.forEach((item) => {
+        item.status = "VALID";
+      });
+
+      return {
+        ...state,
+        verificationPending: false,
+        verificationStatus: payload,
+      };
+    },
+    verifyingCertificateErrored: (state, { payload }: PayloadAction<string>) => {
+      // debugger;
+      return {
+        ...state,
+        verificationPending: false,
+        verificationError: payload,
+      };
+    },
     sendCertificate: (state, _: PayloadAction<{ email: string; captcha: string }>) => ({
       ...state,
       emailState: states.PENDING,

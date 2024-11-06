@@ -1,0 +1,63 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "71f6defd-9439-4a5e-ba98-98ae293e5527:string:SERIAL-2024-08-01-11211",
+    "$template": {
+      "name": "9e573c60-f960-490c-acff-046379295bf9:string:GOVTECH_DEMO",
+      "type": "d880facd-5d9c-4806-89dc-bc7d7b76278a:string:EMBEDDED_RENDERER",
+      "url": "e646bee2-77d4-416f-8409-dc427a06b498:string:https://demo-renderer.opencerts.io"
+    },
+    "description": "35b5e812-416c-4af5-9914-f7f107b28ecb:string:Leanbot Catchup Blockly Junior (Innovative Creator)",
+    "issuedOn": "731500e0-16cd-4710-aa01-3c8a99ae11fd:string:2024-08-01T00:00:00+08:00",
+    "expiresOn": "7ac76be4-1ab4-466b-96eb-2f858b2a085c:string:2118-08-01T00:00:00+08:00",
+    "name": "4e9effe2-18ad-4b77-9588-45d00071ae4f:string:Leanbot Catchup Blockly Junior (Innovative Creator)",
+    "admissionDate": "56ac68a6-ca9d-467b-a434-40077156b994:string:2024-07-01T00:00:00+08:00",
+    "graduationDate": "25c26ad4-aff0-4328-8893-7f93a8b896fd:string:2024-08-01T00:00:00+08:00",
+    "attainmentDate": "37a2ded8-8ad4-44ef-a922-8c7e4296903b:string:2024-07-25T00:00:00+08:00",
+    "issuers": [
+      {
+        "name": "35c28be5-b630-47f6-bea5-d02769906bff:string:HocvienSTEM",
+        "url": "da889e49-9453-4f90-a492-c0b73f4e4641:string:https://hocvienstem.com",
+        "email": "7dfd1399-4caa-49ff-ad61-ef9f6777c084:string:contact@hocvienstem.com",
+        "documentStore": "2e953722-6571-4bc0-ae70-ac221cfac9c7:string:0xbBdCcA8C235466af0f21B325a91f920B0e3B442b",
+        "identityProof": {
+          "type": "ba0abbc9-0fd5-493d-9c33-fc45662a04a1:string:DNS-TXT",
+          "location": "bfe73f36-f77d-4c16-9a1a-44d8537c7ace:string:pythaverse.space"
+        }
+      }
+    ],
+    "recipient": {
+      "name": "6e522d87-5ad9-4436-a97b-67c950101eb2:string:Thanh Giang Duong",
+      "email": "1a9fdc1a-7c6c-444d-8131-106d06e3f6b0:string:giang@dtt.vn",
+      "phone": "648cde67-9ba8-4bcf-9fd6-a7e4bde03d52:string:+84 88888888",
+      "nric": "996a18ce-b0ea-46ad-b60e-5808c10a3450:string:S0000001Z",
+      "studentId": "76361aeb-e562-4de7-9eec-da619490dcfb:string:1232"
+    },
+    "transcript": [
+      {
+        "name": "55186dea-ae48-4681-90ec-4e7f3618d34c:string:Leanbot",
+        "grade": "d67beaf3-7a8a-4fb4-8b2c-575fa7624f1d:string:A+",
+        "courseCredit": "5cc81d17-7e9c-409a-a3d9-85d41a1e4781:number:3",
+        "courseCode": "0ae36d46-c751-4e68-bc04-1029c751cb78:string:LB-01",
+        "examinationDate": "bc95a97c-1d38-4c7f-bcc4-db5b88fffa34:string:2024-08-01T00:00:00+08:00",
+        "url": "e7385aab-5a86-405b-ba7b-040662cdf3e5:string:https://learn.pythaverse.space/course/leanbot",
+        "description": "77ec7d6e-e8ba-4f45-acea-75df8955aade:string:Leanbot Catchup Blockly Junior (Innovative Creator)!"
+      },
+      {
+        "name": "b1895b0f-045a-422c-b531-048b7df865d0:string:Blockly",
+        "grade": "7c495f40-d097-43a5-b1c4-485bad77228e:string:A+",
+        "courseCredit": "e5db4e58-88c7-47ee-8305-8946a8cd8b54:string:3.5",
+        "courseCode": "3ac602fb-b5b3-4ec3-b1ef-095437b0e5bd:string:BL-01",
+        "examinationDate": "016a554f-ec65-4d83-917a-cfd7eff98331:string:2024-08-01T00:00:00+08:00",
+        "url": "71434321-7c6d-4a16-916c-838f8e2e2221:string:https://learn.pythaverse.space/course/blockly",
+        "description": "419f4b22-08d5-4549-8f76-f716e8047459:string:Leanbot Catchup Blockly Junior (Innovative Creator)!"
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "f54007114c1dbf56f081ab8f36b5aa14bdc81697eefda054c81bf2ec796fb8d2",
+    "proof": [],
+    "merkleRoot": "f54007114c1dbf56f081ab8f36b5aa14bdc81697eefda054c81bf2ec796fb8d2"
+  }
+}
