@@ -9,6 +9,14 @@
       "logo": "/static/images/GOVTECH_logo.png",
       "id": "govtech-registry"
     },
+    "0xbBdCcA8C235466af0f21B325a91f920B0e3B442b": {
+      "name": "HocvienSTEM",
+      "displayCard": true,
+      "website": "https://hocvienstem.com",
+      "email": "contact@hocvienstem.com",
+      "logo": "/static/images/HocvienSTEM_logo.png",
+      "id": "hocvienstem-registry"
+    },
     "0x5CA3b9daC85DA4DE4030e59C1a0248004209e348": {
       "name": "Nanyang Polytechnic",
       "displayCard": true,

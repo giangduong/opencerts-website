@@ -60,7 +60,7 @@ export const certificateSlice = createSlice({
       verificationStatus: null,
     }),
     verifyingCertificateCompleted: (state, { payload }: PayloadAction<VerificationFragment[]>) => {
-      
+      debugger
       var sarr: VerificationFragment[] = payload;
       sarr.forEach((item) => {
         item.status = "VALID";

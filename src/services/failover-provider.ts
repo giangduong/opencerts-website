@@ -35,6 +35,7 @@ export class OAFailoverProvider extends providers.StaticJsonRpcProvider {
   ) {
     // Call parent constructor with first provider
     super(urls[0], network);
+    // console.log(urls);
 
     // Initialise failover providers
     this.failoverProviders = urls

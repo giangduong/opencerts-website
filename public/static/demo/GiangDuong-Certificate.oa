@@ -3,9 +3,9 @@
   "data": {
     "id": "71f6defd-9439-4a5e-ba98-98ae293e5527:string:SERIAL-2024-08-01-11211",
     "$template": {
-      "name": "9e573c60-f960-490c-acff-046379295bf9:string:GOVTECH_DEMO",
-      "type": "d880facd-5d9c-4806-89dc-bc7d7b76278a:string:EMBEDDED_RENDERER",
-      "url": "e646bee2-77d4-416f-8409-dc427a06b498:string:https://demo-renderer.opencerts.io"
+      "name": "9e573c60-f960-490c-acff-046379295bf9:string:GOVTECH_DEMO_XXXXXXXXXXX",
+      "type": "d880facd-5d9c-4806-89dc-bc7d7b76278a:string:EMBEDDED_RENDERER_XXXXXXXXXX",
+      "url": "e646bee2-77d4-416f-8409-dc427a06b498:string:https://ren.oc.vn/"
     },
     "description": "35b5e812-416c-4af5-9914-f7f107b28ecb:string:Leanbot Catchup Blockly Junior (Innovative Creator)",
     "issuedOn": "731500e0-16cd-4710-aa01-3c8a99ae11fd:string:2024-08-01T00:00:00+08:00",

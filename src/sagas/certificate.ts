@@ -162,6 +162,7 @@ export function* verifyCertificateSaga({ payload: certificate }: { payload: Wrap
     });
 
     // https://github.com/redux-saga/redux-saga/issues/884
+    // debugger;
     const fragments: VerificationFragment[] = yield call(verify, certificate);
     trace(`Verification Status: ${JSON.stringify(fragments)}`);
     yield put(verifyingCertificateCompleted(fragments));
